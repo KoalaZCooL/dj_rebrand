@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/10/2017, 10:57:18 AM
+    Author     : KoalaZCooL
+*/
+body{
+}
+#top_home_tinted{
+  width: 100%;
+  height: 640px;
+  background:
+		linear-gradient(       rgba(44, 44, 44, 0.7),        rgba(44, 44, 44, 0.7)     ), 
+		url(WeChat.png) no-repeat,
+		linear-gradient(       rgba(0, 0, 0, 0.7),        rgba(0, 0, 0, 0.7)     );
+  background-size: cover;
+  background-position: top -80px left 0;
+  border-radius: 70px;
+}
+#wave_header{
+	max-width: 100%;
+	height: 170px;
+	margin-top: -160px;
+}
+
+.half{
+	width: 50%;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+#home_img_shop{
+	width: 170px;
+	height: 140px;
+	margin-top: 50px;
+	background: url(shop.jpg) no-repeat;
+	background-size: cover;
+	background-position: top -20px left 0;
+	border: 3px solid #b3d043;
+	-webkit-border-radius: 70px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius: 70px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-radius: 70px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#home_img_shanghai{
+	width: 270px;
+	height: 220px;
+	margin-left: -40px;
+	background: url(shanghai.jpg) no-repeat;
+	background-size: cover;
+	/* background-position: top -80px left 0; */
+	border: 3px solid #b3d043;
+	-webkit-border-radius: 40px;
+	-webkit-border-top-left-radius: 110px;
+	-webkit-border-bottom-right-radius: 110px;
+	-moz-border-radius: 40px;
+	-moz-border-radius-topleft: 110px;
+	-moz-border-radius-bottomright: 110px;
+	border-radius: 40px;
+	border-top-left-radius: 110px;
+	border-bottom-right-radius: 110px;
+}
+
+.content_body{
+	max-width: 960px;
+}
