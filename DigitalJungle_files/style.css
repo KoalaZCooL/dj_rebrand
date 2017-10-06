@@ -117,13 +117,15 @@ body{
 
 #dj_partners_bg{
 	background: 
-		url(wave_1.png) center / 100% auto no-repeat,
-		url(wave_2.png) bottom center / 100% auto no-repeat;
+		url(wave_1.png) bottom 270px center / 100% 400px no-repeat;
 }
 
 #dj_partners{
 	height: 440px;
-	background:
-		linear-gradient(       rgba(178, 210, 53, 0.5),        rgba(178, 2510, 53, 0.5)     ),
-		url(partners.png) center no-repeat;
+	background-size: cover;
+	background: 
+	url(partners.png) center / 100%  no-repeat,
+	url(wave_2.png) bottom center / 100% 270px no-repeat,
+	linear-gradient(       rgba(178, 210, 53, 0.6),        rgba(178, 210, 53, 0.7)     )
+	;
 }
