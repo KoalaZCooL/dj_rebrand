@@ -123,9 +123,31 @@ body{
 #dj_partners{
 	height: 440px;
 	background-size: cover;
-	background: 
-	url(partners.png) center / 100%  no-repeat,
+	background:
 	url(wave_2.png) bottom center / 100% 270px no-repeat,
-	linear-gradient(       rgba(178, 210, 53, 0.6),        rgba(178, 210, 53, 0.7)     )
+	url(partners.png) center / 100%  no-repeat,
+	linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)),
+	linear-gradient(rgba(178, 210, 53, 0.9), rgba(178, 210, 53, 0.9))
 	;
+}
+
+.letstalk_box{
+	width: 270px;
+	margin: 0 25px;
+}
+
+
+.letstalk_box img{
+	width: 100%;
+}
+
+#dj_letstalk_bg{
+	height: 200px;
+	background: url(wave_1.png) bottom -100px right / auto 300px no-repeat;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
 }
