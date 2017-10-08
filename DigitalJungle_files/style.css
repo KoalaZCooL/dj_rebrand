@@ -163,3 +163,8 @@ body{
 		url(wave_1.png) center left no-repeat
 	;
 }
+
+.case_study_clientslogo{
+	border: 2px solid #b3d043;
+	border-radius: 60px;
+}
